@@ -8,7 +8,7 @@ import {
   Alert,
 } from 'react-native';
 
-const button = () => {
+const Button = () => {
   // function untuk menangani event ketika tombol ditekan
   function handlePress() {
     Alert.alert('Button Pressed!');
@@ -56,4 +56,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default button;
+export default Button;
